@@ -1,0 +1,6 @@
+@GlobalConflictMonitor.API_HostAddress = http://localhost:5017
+
+GET {{GlobalConflictMonitor.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
