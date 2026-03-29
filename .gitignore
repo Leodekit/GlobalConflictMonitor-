@@ -1,0 +1,65 @@
+## Ignore Visual Studio temporary files, build results, and user-specific files
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+# Ignore bin/ and obj/ folders at repository root and in all subfolders
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Publish output
+publish/
+**/publish/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# dotnet local tools
+.dotnet/tools/
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# IIS Express
+**/IISExpress/Logs/
+
+# Web publish output
+**/PublishedWebSites/
+
+# Azure publish settings
+*.PublishSettings
+*.pubxml
+*.publishproj
+
+# User secrets (do not commit secrets.json)
+**/secrets.json
+
+# Logs
+*.log
+
+# Test and coverage
+TestResults/
+coverage/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Misc
+*.pid
+*.seed
+
